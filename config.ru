@@ -4,6 +4,7 @@ require './config/environment'
 begin
   fi_check_migration
 
+  #With this code, app knows we use PATCH, PUT, DELETE requests
   use Rack::MethodOverride
 
   run ApplicationController
