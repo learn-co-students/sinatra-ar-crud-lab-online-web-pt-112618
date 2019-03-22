@@ -1,4 +1,10 @@
 #Placeholder for a model
 
 class Article < ActiveRecord::Base
-end
+  def change
+    create_table :article do |t|
+    t.string :title
+    t.string :content
+    end 
+  end 
+end 
