@@ -7,7 +7,7 @@ gem 'sinatra'
 gem 'pry-nav'
 gem 'rake'
 gem 'rspec'
-gem 'rack-test'
+gem 'rack-test' '~> 2.0.4'
 gem 'database_cleaner', git: 'https://github.com/bmabey/database_cleaner.git'
 gem 'require_all'
 
